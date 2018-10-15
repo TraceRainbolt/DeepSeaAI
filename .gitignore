@@ -105,3 +105,4 @@ venv.bak/
 
 # Ignore all PNGs, download them elsewhere
 .png
+deepSeaData/
