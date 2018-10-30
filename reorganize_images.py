@@ -54,12 +54,7 @@ with open('annotationData.csv') as csv_file:
             final_path = new_path + "\{}".format(class_)
             final_crop_path = crop_path + "\{}".format(class_)
 
-<<<<<<< HEAD
             make_dir(final_path)
             make_dir(final_crop_path)
 
-            copy(r"deepSeaData\\annotations\\{}".format(image_name), final_path)
             crop(r"deepSeaData\\annotations\\{}".format(image_name), coords, final_crop_path, image_name)
-=======
-            copy(r"deepSeaData\\annotations\\{}".format(image_name), final_path)
->>>>>>> d9b0dde156c2356c9f8a7d456a78e6f890bb6bec
