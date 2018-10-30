@@ -108,6 +108,6 @@ venv.bak/
 models/
 labeledCreatures/
 seaCreatures/
-labellmg/
+labelImg/
 deepSeaData/
 *.record
