@@ -103,6 +103,12 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# Ignore all PNGs, download them elsewhere
-.png
+# Models/images are too big, ignore
+*.png
+*.h5
+models/
+labeledCreatures/
+seaCreatures/
+labellmg/
 deepSeaData/
+*.record
